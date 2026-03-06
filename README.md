@@ -1,14 +1,14 @@
 # SI-qber-open
 Quantum Storage Error Predictor
-SI-QBER v2.1: Quantum Storage Error Predictor
-GitHub stars Python 3.8+ License: MIT
+SI-QBER v2.1:
+Quantum Storage Error Predictor 
+Python 3.8+ License: MIT
 
 Storage-Induced QBER Prediction for Quantum Internet Routing
 Exponential Decay Modeling + XGBoost ML (R²=0.978, +283% Path Recovery)
 
 🎯 What is SI-QBER?
 SI-QBER predicts storage-induced QBER in quantum repeaters using exponential decay physics:
-
 
 
 
