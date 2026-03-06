@@ -1,0 +1,16 @@
+# k8s/si-qber-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: si-qber
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: predictor
+        image: si-qber:latest
+        resources:
+          limits:
+            cpu: "100m"
+            memory: "64Mi"
