@@ -1,0 +1,6 @@
+git clone https://github.com/CodeToEscape/SI-qber-open
+cd si-qber-v2.1
+docker build -t si-qber .
+docker run -p 8080:8080 si-qber
+curl -X POST "http://localhost:8080/correct" \
+  -d '{"storage_cycles": 25, "observed_qber": 0.198}'
