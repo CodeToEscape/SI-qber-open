@@ -1,0 +1,9 @@
+{
+  "corrected_qber": 0.089,
+  "viable": true,
+  "smra_weights": {
+    "quality": 0.917,
+    "trust": 0.85,
+    "freshness": 0.92
+  }
+}
