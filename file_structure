@@ -1,0 +1,8 @@
+si-qber-v2.1/
+├── README.md              ← This file
+├── siqber.py             ← Core engine
+├── requirements.txt      ← Minimal deps
+├── Dockerfile            ← Production container
+├── api.py               ← Optional REST API
+├── k8s/                 ← Kubernetes manifests
+└── demo_pilot_data.json ← Sample training data
